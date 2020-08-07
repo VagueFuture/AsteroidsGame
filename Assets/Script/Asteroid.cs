@@ -16,7 +16,7 @@ public class Asteroid : MonoBehaviour
     {
         poolDoge = GameObject.Find("PoolDoge").GetComponent<Pool_objects>();
         size=Random.Range(0,3);
-        transform.localScale = new Vector3(4+size,4+size,4+size);
+        transform.localScale = new Vector3(1+size,1+size,1+size);
     }
     void FixedUpdate()
     {
@@ -59,7 +59,7 @@ public class Asteroid : MonoBehaviour
 
     public void SetSize(int newSize){
         size = newSize;
-        transform.localScale = new Vector3(4+size,4+size,4+size);
+        transform.localScale = new Vector3(1+size,1+size,1+size);
     }
 
     public void Dead(){

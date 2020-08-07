@@ -63,8 +63,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11694}
-    - Class: 114
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11698}
@@ -73,19 +71,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 12322}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12530}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 13210}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 13550}
+      Script: {instanceID: 12532}
     - Class: 114
-      Script: {instanceID: 15920}
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,8 +142,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11694}
-    - Class: 114
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11698}
@@ -152,33 +150,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12056}
+      Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12322}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 12510}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 12910}
     - Class: 114
-      Script: {instanceID: 13210}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13488}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13550}
+      Script: {instanceID: 13492}
     - Class: 114
-      Script: {instanceID: 13558}
+      Script: {instanceID: 13554}
     - Class: 114
-      Script: {instanceID: 13568}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 13570}
+      Script: {instanceID: 13572}
+    - Class: 114
+      Script: {instanceID: 13574}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,12 +214,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -268,6 +262,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: fd8b23ad3c9e81bc85b197495bc510ac
@@ -412,6 +412,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 80d45d233512dda512212122b058799b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetDataToLvl
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
@@ -640,12 +646,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 80d45d233512dda512212122b058799b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SetDataToLvl
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenue.unity

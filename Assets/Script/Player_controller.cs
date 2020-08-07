@@ -6,7 +6,7 @@ public class Player_controller : MonoBehaviour
 {
     public AudioSource barellAudio;
     public DynamicJoystick dynamicJoystick;
-    private Pool_objects pool;
+    public Pool_objects pool;
     private Animator mayAnim;
     public float horizontal;
     public float jump;
@@ -15,7 +15,7 @@ public class Player_controller : MonoBehaviour
     void Start()
     {
         mayAnim = GetComponentInChildren<Animator>();
-        pool = GetComponentInChildren<Pool_objects>();
+        //pool = GetComponentInChildren<Pool_objects>();
     }
 
     public void Update()
@@ -47,7 +47,7 @@ public class Player_controller : MonoBehaviour
         if(Input.touchCount == 2){
             _timerShoot+=Time.deltaTime;
             if(_timerShoot>0.5f){
-                pool.Shoot(2000);
+                pool.Shoot(5000);
                 barellAudio.Play();
                 _timerShoot = 0;
             }
